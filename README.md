@@ -1,13 +1,5 @@
 # Applied Bioinformatics Thesis
 
-## Topic (TODO)
-
->TODO
-
-## Data Sources
-
-- Autoimmune Diseases Explorer: [ADEx](https://adex.genyo.es).
-
 ## Initialize Environment
 
 ### Initialize Python Environment 
@@ -32,6 +24,23 @@ Needs an installation of [git-lfs](https://git-lfs.com).
 ```bash
 git lfs install  # You only need to run this once per user account.
 ```
+
+### Data Sources
+
+Our Data source is Autoimmune Diseases Explorer (https://adex.genyo.es), a database that integrates 82 curated transcriptomics and methylation studies covering 5609 samples for some of the most common autoimmune diseases. The database provides, in an easy-to-use environment, advanced data analysis and statistical methods for exploring omics datasets, including meta-analysis, differential expression or pathway analysis.
+
+
+| Acronym | Full Term |
+|---------|--------------------------------------|
+| ADs     | Autoimmune Diseases |
+| SLE     | Systemic Lupus Erythematosus |
+| RA      | Rheumatoid Arthritis |
+| SjS     | Sjögren’s Syndrome |
+| SSc     | Systemic Sclerosis |
+| SADs    | Systemic Autoimmune Diseases |
+| T1D     | Type 1 Diabetes |
+
+### Project Structure 
 
 ```
 applied-bioinformatics-thesis/

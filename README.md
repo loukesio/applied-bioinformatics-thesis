@@ -27,7 +27,8 @@ git lfs install  # You only need to run this once per user account.
 
 ### Data Sources
 
-Our Data source is Autoimmune Diseases Explorer (https://adex.genyo.es), a database that integrates 82 curated transcriptomics and methylation studies covering 5609 samples for some of the most common autoimmune diseases. The database provides, in an easy-to-use environment, advanced data analysis and statistical methods for exploring omics datasets, including meta-analysis, differential expression or pathway analysis.
+Our Data source is Autoimmune Diseases Explorer (https://adex.genyo.es), a database that integrates 82 curated transcriptomics and methylation studies covering 5609 samples for some of the most common autoimmune diseases. The database provides, in an easy-to-use environment, advanced data analysis and statistical methods for exploring omics datasets, including meta-analysis, differential expression or pathway analysis. Here is the paper related to the adex database https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-021-04268-4 and here is the github repository of the paper https://github.com/GENyO-BioInformatics/ADEx_public
+
 
 
 | Acronym | Full Term |
@@ -39,6 +40,10 @@ Our Data source is Autoimmune Diseases Explorer (https://adex.genyo.es), a datab
 | SSc     | Systemic Sclerosis |
 | SADs    | Systemic Autoimmune Diseases |
 | T1D     | Type 1 Diabetes |
+
+Each dataset is named based on its accession code, which allows us to find the raw data of the study in the GEO database.
+For example, we primarily focused on the study GSE89408, which contains 180 samples, 25 Healthy and 152 with RA all coming from the same tissue the Synovial membrane.
+
 
 ### Project Structure 
 
@@ -108,3 +113,17 @@ applied-bioinformatics-thesis/
 ├── LICENSE
 
 ```
+
+### Preliminary results 
+
+for the GSE89408 study we can already extra from the adex database several important features such as 
+- differential expression
+- pathway analysis
+- Signal transduction
+- Casual pathways 
+
+
+
+
+
+
